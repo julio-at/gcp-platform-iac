@@ -1,0 +1,41 @@
+# ---- Terraform ----
+.terraform/
+.terraform.tfstate.lock.info
+
+# States (nunca en git)
+*.tfstate
+*.tfstate.*
+
+# Vars sensibles (API keys, secrets, etc.)
+terraform.tfvars
+*.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files locales
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.tfplan
+
+# ---- Editors / OS ----
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains / IntelliJ / GoLand
+.idea/
+
+# Others
+*.swp
+*.swo
+*~
+

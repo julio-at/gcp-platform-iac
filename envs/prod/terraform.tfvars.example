@@ -1,0 +1,10 @@
+# Copy this file to terraform.tfvars and adjust values.
+
+project_id       = "my-gcp-project-id"
+region           = "us-central1"
+network_name     = "prod-vpc"
+subnetwork_name  = "prod-subnet-us-central1"
+subnetwork_cidr  = "10.20.0.0/24"
+cluster_name     = "prod-autopilot"
+artifact_repo_id = "prod-docker"
+gke_sa_name      = "prod-gke-workload"
